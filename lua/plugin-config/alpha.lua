@@ -17,11 +17,11 @@ dashboard.section.header.val = {
 dashboard.section.buttons.val = {
 	dashboard.button("p", "  Project", ":Telescope projects <CR>"),
 	dashboard.button("e", "  New file", ":ene <BAR> startinsert <CR>"),
-	dashboard.button("r", "  Recently used files", ":Telescope oldfiles <CR>"),
-	dashboard.button("t", "  Find text", ":Telescope live_grep <CR>"),
+	dashboard.button("r", "󱦹  Recently used files", ":Telescope oldfiles <CR>"),
+	dashboard.button("t", "󱎸  Find text", ":Telescope live_grep <CR>"),
 	dashboard.button("b", "  Edit keybindings", ":e ~/.config/nvim/lua/keybindings.lua <CR>"),
 	dashboard.button("c", "  Edit Projects", ":e ~/.local/share/nvim/project_nvim/project_history <CR>"),
-	dashboard.button("q", "  Quit Neovim", ":qa<CR>"),
+	dashboard.button("q", "󰗼  Quit Neovim", ":qa<CR>"),
 }
 
 local function footer()

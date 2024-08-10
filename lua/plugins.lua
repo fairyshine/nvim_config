@@ -6,7 +6,7 @@ plugin_manager.setup({
     -- nvim-tree
     { "nvim-tree/nvim-tree.lua", dependencies = "nvim-tree/nvim-web-devicons" },
     -- bufferline
-    { "akinsho/bufferline.nvim", dependencies = { "nvim-tree/nvim-web-devicons", "moll/vim-bbye" }},
+    {'akinsho/bufferline.nvim', version = "*", dependencies = {'nvim-tree/nvim-web-devicons',"moll/vim-bbye"}},--后一个依赖可控制窗口关闭而不改变布局
     -- lualine
     { "nvim-lualine/lualine.nvim", dependencies = { "nvim-tree/nvim-web-devicons" } },
     "arkav/lualine-lsp-progress",
@@ -16,7 +16,7 @@ plugin_manager.setup({
     "LinArcX/telescope-env.nvim",
     -- project
     "ahmedkhalf/project.nvim",
-    -- dashboard-nvim
+    -- 开始界面 alpha-nvim
     "goolord/alpha-nvim",
     -- indent-blankline
     "lukas-reineke/indent-blankline.nvim",

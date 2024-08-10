@@ -7,7 +7,8 @@ end
 -- 列表操作快捷键
 local list_keys = require('keybindings').nvimTreeList
 nvim_tree.setup({
-    on_attach = on_attach, --https://github.com/nvim-tree/nvim-tree.lua/wiki/Migrating-To-on_attach
+    -- 按键映射，见keybindings.lua
+    on_attach = nvimtree_on_attach, --https://github.com/nvim-tree/nvim-tree.lua/wiki/Migrating-To-on_attach
 
     -- 显示 git 状态图标
     git = {

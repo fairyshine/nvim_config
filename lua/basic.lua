@@ -65,7 +65,7 @@ vim.o.whichwrap = '<,>,[,]'
 vim.o.hidden = true
 
 -- 鼠标支持
-vim.o.mouse = "a"
+vim.opt.mouse = "a"
 
 -- 禁止创建备份文件
 vim.o.backup = false
